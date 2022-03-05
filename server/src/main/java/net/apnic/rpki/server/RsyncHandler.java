@@ -19,6 +19,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import net.apnic.rpki.protocol.Module;
+
 class RsyncHandler extends SimpleChannelInboundHandler<WireMessage> {
     private static final Logger LOGGER = LoggerFactory.getLogger(RsyncHandler.class);
     private Protocol protocol;

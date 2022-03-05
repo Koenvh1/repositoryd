@@ -74,8 +74,8 @@ public class RsyncServer {
      */
     public static void main(String[] args) throws Exception {
         Module simple = new MemoryCachedModule("repository", "simple repo", new FileSystemRepository(
-                Paths.get(new URI("file:///data/repositoryd/repository"))
+                Paths.get("./repositoryd-data/repository")
         ));
-        new RsyncServer(8730, simple).run();
+        new RsyncServer(873, simple).run();
     }
 }

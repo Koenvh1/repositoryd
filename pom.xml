@@ -51,7 +51,7 @@
         <maven-jxr-plugin.version>2.3</maven-jxr-plugin.version>
         <maven-checkstyle-plugin.version>2.11</maven-checkstyle-plugin.version>
         <maven-pmd-plugin.version>2.7.1</maven-pmd-plugin.version>
-        <findbugs-maven-plugin.version>2.5.3</findbugs-maven-plugin.version>
+        <findbugs-maven-plugin.version>3.0.4</findbugs-maven-plugin.version>
         <findbugs-annotations.version>1.0.0</findbugs-annotations.version>
 
         <!-- Checkstyle -->

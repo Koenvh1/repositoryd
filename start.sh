@@ -1,0 +1,1 @@
+java -cp data/target/data-1.0-SNAPSHOT.jar:protocol/target/protocol-1.0-SNAPSHOT.jar:standalone/target/repositoryd-1.0-SNAPSHOT.jar:server/target/server-1.0-SNAPSHOT.jar net.apnic.rpki.server.RsyncServer
